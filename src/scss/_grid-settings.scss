@@ -78,7 +78,7 @@ margin-bottom: 5px;
 //-----------------------
 
 //color pallete
-$color1: #6f7375;
+$color1: #481848;
 $color2: #b5b5b5;
 $color3: #cacaca;
 $color4: #59b420;
@@ -105,7 +105,7 @@ $borderColor: $color3;
 
 
 //fonts
-$primaryFont: 'Lato', sans-serif;
+$primaryFont:'Poppins', sans-serif;
 $secondaryFont: Arial, sans-serif;
 
 
@@ -117,7 +117,7 @@ $secondaryFont: Arial, sans-serif;
 //DEFINES GRID
 
 //-----------------------
-$visual-grid: true !global;
+// $visual-grid: true !global;
 $visual-grid-color: #ccc;
 $column: 62.08333px;
 $gutter: 10px;

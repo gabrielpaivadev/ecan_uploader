@@ -4,11 +4,62 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="/css/styles.css">
+          <!-- Compiled and minified CSS -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+          <!-- Compiled and minified JavaScript -->
+          <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <script type="text/javascript" src="main.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+                  
     </head>
     <body>
-        <h1>hello world</h1>
-        <div class="teste">
+        <div class="main">
+            <div class="logo">
+                <h1>Image uploader</h1>
+                <img src="https://lh6.googleusercontent.com/-14XW-G4wVrE/VR1EBiaVb7I/AAAAAAAAAA4/TppmWSuPQeUYov_i6Z_WshynkLkiLXNhwCJkC/w160-h160-k-no/" alt="logo">
+            </div>
+            <div class="wrapper">
+              <a class="waves-effect purple lighten-1 btn-large" href="#modal1" id="send"><i class="material-icons left">cloud_upload</i>Enviar imagem</a>
+              <a href="" class="low"></a>
 
+              <a href="" class="low"></a>
+              <a class="waves-effect purple lighten-1 btn-large" href="#modal2" id="search"><i class="material-icons left">search</i>Buscar</a>
+            </div>
         </div>
+
+           <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              <h4>Enviar imagem</h4>
+              <p>Envie e adicione tags.</p>
+              <form action="#">
+                <div class="file-field input-field">
+                  <div class="btn waves-effect purple lighten-1">
+                    <span>File</span>
+                    <input type="file">
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                  </div>
+                </div>
+                <input placeholder="nome de arquivo" id="first_name" type="text" class="validate">
+                <input placeholder="tags separadas por virgula" id="first_name" type="text" class="validate">
+              </form>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancelar</a>
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Enviar</a>
+            </div>
+          </div>
+
+          <div id="modal2" class="modal modal-fixed-footer">
+            <div class="modal-content">
+              
+            </div>
+            
+          </div>
+                  
     </body>
 </html>

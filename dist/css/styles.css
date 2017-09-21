@@ -74,24 +74,72 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #ccc 0, #ccc 7.26121%, transparent 7.26121%, transparent 8.4308%, #ccc 8.4308%, #ccc 15.69201%, transparent 15.69201%, transparent 16.8616%, #ccc 16.8616%, #ccc 24.12281%, transparent 24.12281%, transparent 25.2924%, #ccc 25.2924%, #ccc 32.55361%, transparent 32.55361%, transparent 33.7232%, #ccc 33.7232%, #ccc 40.98441%, transparent 40.98441%, transparent 42.154%, #ccc 42.154%, #ccc 49.4152%, transparent 49.4152%, transparent 50.5848%, #ccc 50.5848%, #ccc 57.846%, transparent 57.846%, transparent 59.01559%, #ccc 59.01559%, #ccc 66.2768%, transparent 66.2768%, transparent 67.44639%, #ccc 67.44639%, #ccc 74.7076%, transparent 74.7076%, transparent 75.87719%, #ccc 75.87719%, #ccc 83.1384%, transparent 83.1384%, transparent 84.30799%, #ccc 84.30799%, #ccc 91.5692%, transparent 91.5692%, transparent 92.73879%, #ccc 92.73879%, #ccc 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #ccc 0, #ccc 7.26121%, transparent 7.26121%, transparent 8.4308%, #ccc 8.4308%, #ccc 15.69201%, transparent 15.69201%, transparent 16.8616%, #ccc 16.8616%, #ccc 24.12281%, transparent 24.12281%, transparent 25.2924%, #ccc 25.2924%, #ccc 32.55361%, transparent 32.55361%, transparent 33.7232%, #ccc 33.7232%, #ccc 40.98441%, transparent 40.98441%, transparent 42.154%, #ccc 42.154%, #ccc 49.4152%, transparent 49.4152%, transparent 50.5848%, #ccc 50.5848%, #ccc 57.846%, transparent 57.846%, transparent 59.01559%, #ccc 59.01559%, #ccc 66.2768%, transparent 66.2768%, transparent 67.44639%, #ccc 67.44639%, #ccc 74.7076%, transparent 74.7076%, transparent 75.87719%, #ccc 75.87719%, #ccc 83.1384%, transparent 83.1384%, transparent 84.30799%, #ccc 84.30799%, #ccc 91.5692%, transparent 91.5692%, transparent 92.73879%, #ccc 92.73879%, #ccc 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #ccc 0, #ccc 7.26121%, transparent 7.26121%, transparent 8.4308%, #ccc 8.4308%, #ccc 15.69201%, transparent 15.69201%, transparent 16.8616%, #ccc 16.8616%, #ccc 24.12281%, transparent 24.12281%, transparent 25.2924%, #ccc 25.2924%, #ccc 32.55361%, transparent 32.55361%, transparent 33.7232%, #ccc 33.7232%, #ccc 40.98441%, transparent 40.98441%, transparent 42.154%, #ccc 42.154%, #ccc 49.4152%, transparent 49.4152%, transparent 50.5848%, #ccc 50.5848%, #ccc 57.846%, transparent 57.846%, transparent 59.01559%, #ccc 59.01559%, #ccc 66.2768%, transparent 66.2768%, transparent 67.44639%, #ccc 67.44639%, #ccc 74.7076%, transparent 74.7076%, transparent 75.87719%, #ccc 75.87719%, #ccc 83.1384%, transparent 83.1384%, transparent 84.30799%, #ccc 84.30799%, #ccc 91.5692%, transparent 91.5692%, transparent 92.73879%, #ccc 92.73879%, #ccc 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #ccc 0, #ccc 7.26121%, transparent 7.26121%, transparent 8.4308%, #ccc 8.4308%, #ccc 15.69201%, transparent 15.69201%, transparent 16.8616%, #ccc 16.8616%, #ccc 24.12281%, transparent 24.12281%, transparent 25.2924%, #ccc 25.2924%, #ccc 32.55361%, transparent 32.55361%, transparent 33.7232%, #ccc 33.7232%, #ccc 40.98441%, transparent 40.98441%, transparent 42.154%, #ccc 42.154%, #ccc 49.4152%, transparent 49.4152%, transparent 50.5848%, #ccc 50.5848%, #ccc 57.846%, transparent 57.846%, transparent 59.01559%, #ccc 59.01559%, #ccc 66.2768%, transparent 66.2768%, transparent 67.44639%, #ccc 67.44639%, #ccc 74.7076%, transparent 74.7076%, transparent 75.87719%, #ccc 75.87719%, #ccc 83.1384%, transparent 83.1384%, transparent 84.30799%, #ccc 84.30799%, #ccc 91.5692%, transparent 91.5692%, transparent 92.73879%, #ccc 92.73879%, #ccc 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 7.26121%, transparent 7.26121%, transparent 8.4308%, #ccc 8.4308%, #ccc 15.69201%, transparent 15.69201%, transparent 16.8616%, #ccc 16.8616%, #ccc 24.12281%, transparent 24.12281%, transparent 25.2924%, #ccc 25.2924%, #ccc 32.55361%, transparent 32.55361%, transparent 33.7232%, #ccc 33.7232%, #ccc 40.98441%, transparent 40.98441%, transparent 42.154%, #ccc 42.154%, #ccc 49.4152%, transparent 49.4152%, transparent 50.5848%, #ccc 50.5848%, #ccc 57.846%, transparent 57.846%, transparent 59.01559%, #ccc 59.01559%, #ccc 66.2768%, transparent 66.2768%, transparent 67.44639%, #ccc 67.44639%, #ccc 74.7076%, transparent 74.7076%, transparent 75.87719%, #ccc 75.87719%, #ccc 83.1384%, transparent 83.1384%, transparent 84.30799%, #ccc 84.30799%, #ccc 91.5692%, transparent 91.5692%, transparent 92.73879%, #ccc 92.73879%, #ccc 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 100%;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
 
 body {
-  color: #cacaca; }
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #481848;
+  height: 100%; }
+
+.main {
+  height: 100%; }
+
+.logo {
+  margin: 10% 0 10%;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif; }
+  .logo img {
+    border-radius: 20px; }
+
+a {
+  width: 250px;
+  border-radius: 8px !important; }
+
+.low {
+  width: 30px; }
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center; }

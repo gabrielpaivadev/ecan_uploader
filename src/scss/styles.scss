@@ -1,7 +1,40 @@
 @import "bourbon";
 @import "grid-settings";
 @import "neat";
+@import "reset";
 
-body {
-    color: $color3;
+
+body{
+  background-color: $color1;
+  height:100%;
 }
+.main {
+	height: 100%;
+}
+.logo {
+	margin: 10% 0 10%;
+	text-align: center;
+	color: $white;
+	font-family: $primaryFont;
+	img {
+		border-radius: 20px;
+	}
+}
+a {
+	width: 250px;
+	border-radius: 8px !important;
+}
+
+.low {
+	width: 30px;
+}
+.wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+
+}
+
+
+
